@@ -12,13 +12,13 @@ COPY .yarn/ .yarn/
 COPY packages/core/package.json ./packages/core/
 COPY examples/backend/package.json ./examples/backend/
 
-RUN yarn workspaces focus @slate-yjs/example-backend --production
+RUN yarn workspaces focus @xbeeant/plate-yjsexample-backend --production
 
 ### BUILDER ###
 FROM base AS builder
 
 # Install all dependencies
-RUN yarn workspaces focus @slate-yjs/example-backend
+RUN yarn workspaces focus @xbeeant/plate-yjsexample-backend
 
 # Copy source files
 COPY config/ ./config/

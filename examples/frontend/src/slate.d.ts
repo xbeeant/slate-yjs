@@ -1,4 +1,4 @@
-import { RemoteCursorDecoratedRange } from '@slate-yjs/react';
+import { RemoteCursorDecoratedRange } from '@xbeeant/plate-yjs-react';
 import { BaseRange } from 'slate';
 import { CursorData } from './types';
 

@@ -2,7 +2,7 @@ import {
   CursorEditor,
   CursorState,
   RemoteCursorChangeEventListener,
-} from '@slate-yjs/core';
+} from '@xbeeant/plate-yjs-core';
 import { BaseEditor } from 'slate';
 import { Store } from '../types';
 import { useRemoteCursorEditor } from './useRemoteCursorEditor';

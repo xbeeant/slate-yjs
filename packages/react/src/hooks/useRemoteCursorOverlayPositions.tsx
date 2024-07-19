@@ -1,4 +1,4 @@
-import { CursorState } from '@slate-yjs/core';
+import { CursorState } from '@xbeeant/plate-yjs-core';
 import {
   RefObject,
   useCallback,

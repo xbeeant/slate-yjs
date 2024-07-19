@@ -1,4 +1,4 @@
-import { CursorEditor, YHistoryEditor, YjsEditor } from '@slate-yjs/core';
+import { CursorEditor, YHistoryEditor, YjsEditor } from '@xbeeant/plate-yjs-core';
 import { Descendant } from 'slate';
 import { ReactEditor } from 'slate-react';
 

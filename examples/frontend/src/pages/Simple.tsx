@@ -1,5 +1,5 @@
 import { HocuspocusProvider } from '@hocuspocus/provider';
-import { withYHistory, withYjs, YjsEditor } from '@slate-yjs/core';
+import { withYHistory, withYjs, YjsEditor } from '@xbeeant/plate-yjs-core';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { createEditor, Descendant } from 'slate';
 import { Slate, withReact } from 'slate-react';
@@ -62,7 +62,7 @@ export function SimplePage() {
 
   return (
     <div className="flex justify-center my-32 mx-10">
-      <Slate value={value} onChange={setValue} editor={editor}>
+      <Slate initialValue={value} onChange={setValue} editor={editor}>
         <FormatToolbar />
         <CustomEditable className="max-w-4xl w-full flex-col break-words" />
       </Slate>

@@ -1,4 +1,4 @@
-import { CursorEditor } from '@slate-yjs/core';
+import { CursorEditor } from '@xbeeant/plate-yjs-core';
 import { ReactEditor, useSlateStatic } from 'slate-react';
 
 export function useRemoteCursorEditor<

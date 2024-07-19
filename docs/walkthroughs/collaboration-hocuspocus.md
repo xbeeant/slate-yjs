@@ -7,7 +7,7 @@
 ```javascript
 import { Logger } from '@hocuspocus/extension-logger';
 import { Server } from '@hocuspocus/server';
-import { slateNodesToInsertDelta } from '@slate-yjs/core';
+import { slateNodesToInsertDelta } from '@xbeeant/plate-yjs-core';
 import * as Y from 'yjs';
 
 const initialValue = [{ type: 'paragraph', children: [{ text: '' }] }];
@@ -40,7 +40,7 @@ server.listen();
 
 ```javascript
 import { HocuspocusProvider } from '@hocuspocus/provider';
-import { withYjs, YjsEditor, withYHistory } from '@slate-yjs/core';
+import { withYjs, YjsEditor, withYHistory } from '@xbeeant/plate-yjs-core';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { createEditor, Descendant, Editor, Transforms } from 'slate';
 import { Editable, Slate, withReact } from 'slate-react';

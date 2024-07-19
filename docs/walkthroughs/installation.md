@@ -2,10 +2,10 @@
 
 ## Installing the dependencies
 
-For the following example, you will only need the core binding `@slate-yjs/core`. While the core package doesn't contain all by slate-yjs provided functionality, it contains everything you need to set up a basic 2 way binding between a slate editor and a yjs shared type.
+For the following example, you will only need the core binding `@xbeeant/plate-yjs-core`. While the core package doesn't contain all by slate-yjs provided functionality, it contains everything you need to set up a basic 2 way binding between a slate editor and a yjs shared type.
 
 ```
-npm install @slate-yjs/core
+npm install @xbeeant/plate-yjs-core
 ```
 
 You also need to be sure to install slate-yjs's peer dependencies:
@@ -22,7 +22,7 @@ Once you've installed slate-yjs, you'll need to import it.
 
 ```jsx
 // Import the core binding
-import { withYjs, slateNodesToInsertDelta, YjsEditor } from '@slate-yjs/core';
+import { withYjs, slateNodesToInsertDelta, YjsEditor } from '@xbeeant/plate-yjs-core';
 
 // Import yjs
 import * as Y from 'yjs';

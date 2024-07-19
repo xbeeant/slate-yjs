@@ -1,4 +1,4 @@
-# @slate-yjs/react
+# @xbeeant/plate-yjs-react
 
 ## 1.1.0
 
@@ -11,7 +11,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`a6a27c8`](https://github.com/BitPhinix/slate-yjs/commit/a6a27c86678656e55ecbf0ba76852545605a0955), [`a6a27c8`](https://github.com/BitPhinix/slate-yjs/commit/a6a27c86678656e55ecbf0ba76852545605a0955), [`72bbbf3`](https://github.com/BitPhinix/slate-yjs/commit/72bbbf3bb8a3f57762153cbd9a7f689d2b282f0c)]:
-  - @slate-yjs/core@1.0.0
+  - @xbeeant/plate-yjs-core@1.0.0
 
 ## 0.3.0
 
@@ -31,7 +31,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`3710c48`](https://github.com/BitPhinix/slate-yjs/commit/3710c4887ee89946ace787ba24436d82d95bc856)]:
-  - @slate-yjs/core@0.3.0
+  - @xbeeant/plate-yjs-core@0.3.0
 
 ## 0.2.4
 
@@ -44,4 +44,4 @@
 ### Patch Changes
 
 - Updated dependencies [[`5172e4a`](https://github.com/BitPhinix/slate-yjs/commit/5172e4a0033db41bc3530f227c5371e9ddb22269)]:
-  - @slate-yjs/core@0.2.3
+  - @xbeeant/plate-yjs-core@0.2.3

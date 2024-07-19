@@ -1,7 +1,7 @@
 import {
   CursorOverlayData,
   useRemoteCursorOverlayPositions,
-} from '@slate-yjs/react';
+} from '@xbeeant/plate-yjs-react';
 import clsx from 'clsx';
 import React, { CSSProperties, PropsWithChildren, useRef } from 'react';
 import { CursorData } from '../../types';

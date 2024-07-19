@@ -1,4 +1,4 @@
-# @slate-yjs/core
+# @xbeeant/plate-yjs-core
 
 ## 1.0.2
 

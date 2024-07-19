@@ -1,4 +1,4 @@
-import { CursorEditor } from '@slate-yjs/core';
+import { CursorEditor } from '@xbeeant/plate-yjs-core';
 import { useCallback, useEffect } from 'react';
 import { useFocused } from 'slate-react';
 import { useRemoteCursorEditor } from './useRemoteCursorEditor';

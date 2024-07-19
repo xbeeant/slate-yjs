@@ -2,7 +2,7 @@
 
 ## withCursors
 
-`withCursors` facilitates the base layer used by frontend specific implementations/utils like `@slate-yjs/react'`s `useRemoteCursorOverlayPositions`. It contains a common way to send and subscribe to cursor data backed by Yjs's [awareness](https://docs.yjs.dev/getting-started/adding-awareness) feature.
+`withCursors` facilitates the base layer used by frontend specific implementations/utils like `@xbeeant/plate-yjs-react'`s `useRemoteCursorOverlayPositions`. It contains a common way to send and subscribe to cursor data backed by Yjs's [awareness](https://docs.yjs.dev/getting-started/adding-awareness) feature.
 
 > Not all yjs transports support awareness yet. Depending on which transport you use, this feature might not be available.
 

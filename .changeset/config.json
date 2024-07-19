@@ -5,7 +5,7 @@
     { "repo": "BitPhinix/slate-yjs" }
   ],
   "commit": false,
-  "linked": [["@slate-yjs/core", "@slate-yjs/react"]],
+  "linked": [["@xbeeant/plate-yjs-core", "@xbeeant/plate-yjs-react"]],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",

@@ -20,13 +20,13 @@
 
 ## 🔧 API
 
-- [@slate-yjs/core](api/slate-yjs-core/README.md)
+- [@xbeeant/plate-yjs-core](api/slate-yjs-core/README.md)
   - [Yjs Plugin](api/slate-yjs-core/yjs-plugin.md)
   - [History Plugin](api/slate-yjs-core/history-plugin.md)
   - [Cursor Plugin](api/slate-yjs-core/cursor-plugin.md)
   - [Utils](api/slate-yjs-core/utils.md)
   - [Changelog](https://github.com/BitPhinix/slate-yjs/blob/main/packages/core/CHANGELOG.md)
-- [@slate-yjs/react](api/slate-yjs-react/README.md)
+- [@xbeeant/plate-yjs-react](api/slate-yjs-react/README.md)
   - [Cursor Overlay](api/slate-yjs-react/cursor-overlay.md)
   - [Cursor Decorations](api/slate-yjs-react/cursor-decorations.md)
   - [Cursor Selectors](api/slate-yjs-react/cursor-selectors.md)

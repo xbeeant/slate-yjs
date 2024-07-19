@@ -1,6 +1,6 @@
 # Cursor selectors
 
-`@slate-yjs/react` provides various helper hooks to allow for custom rendering of remote selections on/inside editor elements. All these
+`@xbeeant/plate-yjs-react` provides various helper hooks to allow for custom rendering of remote selections on/inside editor elements. All these
 helper hooks are based upon a per-editor unique store to allow for good performance even when rendering 100s of elements reacting to
 remote changes.
 

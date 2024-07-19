@@ -1,6 +1,6 @@
-import { BaseRange, Editor, Path, Range, Text } from 'slate';
-import { ReactEditor } from 'slate-react';
+import { BaseEditor, BaseRange, Editor, Path, Range, Text } from 'slate';
 import { reactEditorToDomRangeSafe } from './react-editor-to-dom-range-safe';
+import { ReactEditor } from 'slate-react';
 
 export type SelectionRect = {
   width: number;
@@ -41,7 +41,7 @@ export function getOverlayPosition(
   }
 
   const selectionRects: SelectionRect[] = [];
-  const nodeIterator = Editor.nodes(editor, {
+  const nodeIterator = Editor.nodes(editor as unknown as BaseEditor, {
     at: range,
     match: (n, p) =>
       Text.isText(n) && (!shouldGenerateOverlay || shouldGenerateOverlay(n, p)),
